@@ -5,51 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Manya Khemka | Portfolio</title>
   <meta name="description" content="Portfolio of Manya Khemka — Information Systems & AI student at Carnegie Mellon University." />
-  <meta name="theme-color" content="#0b0f19" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
   <!-- NAVBAR -->
   <header>
-    <nav class="container nav" role="navigation" aria-label="Main navigation">
+    <nav class="container nav">
       <div class="logo">Manya Khemka</div>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><button id="themeToggle">🌙</button></li>
       </ul>
-      <div class="nav-actions">
-        <button id="themeToggle" aria-label="Toggle color theme">🌙</button>
-      </div>
     </nav>
   </header>
 
   <!-- HERO -->
   <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-copy">
-        <h1>Hi, I’m Manya Khemka</h1>
-        <p class="subtitle">
-          Information Systems & Artificial Intelligence student at Carnegie Mellon University,
-          building data-driven products at the intersection of strategy, technology, and social impact.
-        </p>
+    <div class="container">
+      <h1>Hi, I’m Manya Khemka</h1>
+      <p class="subtitle">
+        Information Systems & Artificial Intelligence student at Carnegie Mellon University,
+        building data-driven products at the intersection of strategy, technology, and social impact.
+      </p>
 
-        <div class="hero-links">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn" href="#contact">Get in Touch</a>
-        </div>
+      <div class="hero-links">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="#contact">Get in Touch</a>
       </div>
 
-      <aside class="hero-side">
-        <div class="socials">
-          <a href="mailto:mkhemka@andrew.cmu.edu">Email</a>
-          <a href="https://www.linkedin.com/in/manya-khemka3/" target="_blank">LinkedIn</a>
-          <a href="#" title="Add GitHub later">GitHub</a>
-        </div>
-      </aside>
+      <!-- moved slightly lower -->
+      <div class="socials" style="margin-top: 1.5rem;">
+        <a href="mailto:mkhemka@andrew.cmu.edu">Email</a>
+        <a href="https://www.linkedin.com/in/manya-khemka3/" target="_blank">LinkedIn</a>
+        <a href="#" title="Add GitHub later">GitHub</a>
+      </div>
     </div>
   </section>
 
